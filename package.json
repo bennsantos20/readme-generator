@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/bennsantos20/readme-generator#readme",
   "dependencies": {
-    "inquirer": "^8.0.0"
+    "inquirer": "^8.0.0",
+    "license": "^1.0.3"
   }
 }

@@ -1,7 +1,7 @@
 // TODO: Include packages needed for this application
 const inquirer = require("inquirer");
 const fs = require("fs");
-const documentGenerator = require("./utils/generateMarkdown.js");
+const generateMarkdown = require("./utils/generateMarkdown.js");
 
 // TODO: Create an array of questions for user input
 const questions = [
@@ -54,7 +54,7 @@ const questions = [
     {
         type: 'input',
         message: 'What does the user need to know about contributing to the repo?',
-        name: 'contributing',
+        name: 'Know',
       },
   ];
   
