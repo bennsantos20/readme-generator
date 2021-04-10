@@ -37,7 +37,7 @@ function renderLicenseSection(license) {
 function generateMarkdown(userInput) {
   return `# ${userInput.Title}
   
-  ${renderLicenseSection(userInput.license)}
+  ${renderLicenseSection(userInput.License)}
 
   ## Description
   ${userInput.Description}
