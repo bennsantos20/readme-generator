@@ -64,7 +64,7 @@ const questions = [
         .prompt(questions)
         .then((userInput) => {
             const readMeContent = generateMarkdown(userInput);
-            console.log('Generating ReadMe...');
+            console.log('Generating ReadMe');
             fs.writeFile('ReadMe.md', readMeContent, (err) =>
                 err ? console.error(err) : console.log("success"))
         });
