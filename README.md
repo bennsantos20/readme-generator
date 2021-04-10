@@ -1,6 +1,7 @@
 # ReadMe Generator
   
   
+
   ## Description
   This application is a readme generator with a license badge given the users inputs.
   ***
@@ -15,11 +16,11 @@
   ## Installation
   run npm i
   ## Usage
-  un node index.js and then answer following prompts
+  run node index.js and then answer following prompts
   ## License
-  Apache
+  Apache 2.0
   ## Contributing
-  If you would like to contribute to this project, please add me on git hub.
+  If you would like to contribute to this project, please add me on github.
   ## Tests
   run npm test
   ## Questions

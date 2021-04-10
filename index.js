@@ -31,7 +31,7 @@ const questions = [
       message: "Choose a license for your ReadMe:",
       choices: [
         "Mozilla Public License",
-        "Apache",
+        "Apache 2.0",
         "MIT",
         "Boost Software License",
       ],
